@@ -4,7 +4,7 @@ const cors = require('cors');
 const { prueba } = require('./controllers/articleControllers');
 
 // Settings
-app.set('port', process.env.PORT || 3100); // Define port of server
+app.set('port', process.env.PORT || 3200); // Define port of server
 
 // Setting Cors
 app.use(cors());
